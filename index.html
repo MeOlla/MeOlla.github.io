@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!---===================BOX ICONS================--->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+        <!---=================== CSS ================--->
+        <link rel="stylesheet" href="assets/css/styles.css">
+        <title>Olla Store</title>
+
+        <!---=================== CSS SLICK ================--->
+        <link rel="stylesheet" type="text/css" href="assets/css/slick.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css">    </head>
+    <body>
+        <!---=================== SCROLL TOP ================--->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bx-chevrons-up bx-flip-horizontal' style='color:#fffafa' ></i>
+        </a>
+
+        <!---=================== HEADER ================--->
+        <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-menu"></i>
+            </div>
+
+            <a href="#" class="nav__logo"> Olla&#174; </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Quality</a></li>
+                    <li class="nav__item"><a href="#products" class="nav__link">Product</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact Us</a></li>
+                    
+                    <li><i class='bx bx-toggle-left change-theme' id='theme-button'></i></li>
+                
+                </ul>
+            </div>
+
+            <div class="nav__shop">
+                <a href="#" class="nav__icon">
+                    <i class="bx bx-shopping-bag"></i>
+                    <span>2</span>
+                </a>
+                <div class="nav__shop-content">
+                    <div class="title-shop">
+                        <span>Keranjang Belanja</span>
+                    </div>
+
+                    <div class="item">
+                        <div class="image_cart">
+                            <div class="image_c">
+                                <img src="assets/img/Product1.png" alt="">
+                            </div>
+                        </div>
+                            <div class="description">
+                                <span>Vivian Alley</span>
+                                <span> 1 Pcs</span>
+                            </div>
+                            <div class="total-price">Rp. 345.000</div>
+                            <a href="#" class="delete-item">
+                                <i class='bx bx-x' ></i>   
+                            </a>
+                   </div>
+                
+                <div class="item">
+                    <div class="image_cart">
+                        <div class="image_c">
+                            <img src="assets/img/Product3.png" alt="">
+                        </div>
+                    </div>
+                        <div class="description">
+                            <span>Sweeet Flo</span>
+                            <span> 1 Pcs</span>
+                        </div>
+                        <div class="total-price">Rp. 405.000</div>
+                        <a href="#" class="delete-item">
+                            <i class='bx bx-x' ></i>   
+                        </a>
+                </div>
+
+                <div class="total-all">
+                    <span>Total</span>
+                    <span>Rp. 750.000</span>
+               </div>
+
+               <div class="btn-viewcard">
+                  <a href="#" class="button-top">View Card</a>
+               </div>
+               <div class="btn-checkout">
+                <a href="#" class="button-top2">Check Out</a>
+             </div>
+                  </div>
+                </div>
+            </div>
+        </nav>
+ </header>
+
+<main class="l-main">
+            <!---=================== HOME ================--->
+            <section class="home" id="home">
+                <div class="slideshow-container">
+                    
+                     <div class="mySlides fade">
+                       <div class="home__container bd-container bd-grid">
+                          <div class="home__data">
+                              <h1 class="home__title"> Lova Dress</h1>
+                              <h2 class="home__subtitle">Premium Dress<br> on 2022</h2>
+                              <a href="#" class="button">Explore Now</a>
+                          </div>
+                          <img src="assets/img/Home1.png" alt="" class="home__img">
+                    </div>
+                </div>
+                 <div class="mySlides fade">
+                   <div class="home__container bd-container bd-grid">
+                     <div class="home__data">
+                         <h1 class="home__title"> Carolline Dress</h1>
+                         <h2 class="home__subtitle">Best Seler<br> on 2021</h2>
+                         <a href="#" class="button">Explore Now</a>
+                    </div>
+                    <img src="assets/img/Home2.png" alt="" class="home__img">
+                </div>
+            </div>
+                <div class="mySlides fade">
+                <div class="home__container bd-container bd-grid">
+                    <div class="home__data">
+                        <h1 class="home__title"> Anoukki Dress</h1>
+                        <h2 class="home__subtitle">Most Exlusive dress<br> On 2022</h2>
+                        <a href="#" class="button">Explore Now</a>
+                    </div>
+                    <img src="assets/img/Home3.png" alt="" class="home__img">
+                  </div>
+               </div>
+            </div>
+            <br>
+            </section>
+    <!---=================== NEXT AND PREV BUTTONS ================--->
+       <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+       <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <!---=================== dots ================--->
+    <div style="text-align: center">
+        <span class="dots" onclick="currentSlide(1)"></span> 
+        <span class="dots" onclick="currentSlide(2)"></span>
+        <span class="dots" onclick="currentSlide(3)"></span>
+        <span class="dot"></span>
+       </div>
+     </section>
+    
+
+            <!---=================== ABOUT ================--->
+            <section class="about section bd-container" id="about">
+                <div class="about__container bd-grid">
+                    <div class="about__data">
+                        <span class="section-subtitle about__initial">About Us</span>
+                        <h2 class="section-title about__initial">We create the best <br> local dress</h2>
+                        <p class="about__description">Olla Dress mulai diperkenalkan pada tahun 2019 oleh Aurora Najlawarha,
+                            Seorang pemilik pabrik dress sejak tahun 2013 di Kanye, Amerika Serikat</p>
+                        <a href="#" class="button">Explore History</a>
+                    </div>
+
+                    <img src="assets/img/About1.png" alt="" class="about__img">
+                </div>
+            </section>
+
+            <!---=================== SERVICE ================--->
+            <section class="service section bd-container" id="services">
+                <span class="section-subtitle">Offering</span>
+                <h2 class="section-title">Our amazing services</h2>
+                <div class="services__container bd-grid">
+                    <div class="services__content">
+                        <img src="assets/img/bahan.png" alt="" class="services__img">
+                        <h3 class="services__title">High Quality</h3>
+                        <p class="services__description">Dibuat dengan sepenuh hati dengan menggunakan bahan yang berkualitas tinggi</p>
+                    </div>
+                    <div class="services__container bd-grid">
+                        <div class="services__content">
+                            <img src="assets/img/merk.png" alt="" class="services__img">
+                            <h3 class="services__title">Best Global Brand</h3>
+                            <p class="services__description">Salah satu brand ternama di Asia dan kualitasnya tidak kalah jauh dengan brand lain</p>
+                    </div>
+                    <div class="services__container bd-grid">
+                        <div class="services__content">
+                            <img src="assets/img/use.png" alt="" class="services__img">
+                            <h3 class="services__title">Show Up Yourself With Olla Dress</h3>
+                            <p class="services__description">Cocok untuk acara besar,pesta,dugem dll</p>
+                     </div>
+                     <div class="services__container bd-grid">
+                        <div class="services__content">
+                            <img src="assets/img/use.png" alt="" class="services__img">
+                            <h3 class="services__title">Show Up Yourself With Olla Dress</h3>
+                            <p class="services__description">Cocok untuk acara besar,pesta,dugem dll</p>
+                     </div>
+                  </div>
+        </section>
+
+            <!---=================== PRODUCT ================--->
+            <section class="products section bd-container" id="products">
+                <span class="section-subtitle">Special</span>
+                <h2 class="section-title">PRODUCTS of the week</h2>
+
+                <div class="products__container bd-grid logo-slider slick_two">
+                    <div class="products__content">
+                        <img src="assets/img/Product1.png" alt="" class="products__img">
+                        <h3 class="products__name">Vivian Alley</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__price">Rp. 345.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</a>
+                        <a href="#" class="button products__button"><i class='bx bxs-cart' style='color:#ffffff'  ></i></a>
+                    </div>
+                    
+                    <div class="products__content">
+                        <img src="assets/img/Product3.png" alt="" class="products__img">
+                        <h3 class="products__name">Sweet Flo</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__price">Rp. 405.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</a>
+                        <a href="#" class="button products__button"><i class='bx bxs-cart' style='color:#ffffff'  ></i></a>
+                    </div>
+    
+                    <div class="products__content">
+                        <img src="assets/img/Product4.png" alt="" class="products__img">
+                        <h3 class="products__name">Veronica Salt</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__price">Rp. 300.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</a>
+                        <a href="#" class="button products__button"><i class='bx bxs-cart' style='color:#ffffff'  ></i></a>
+                    </div>
+    
+                    <div class="products__content">
+                        <img src="assets/img/Product6.png" alt="" class="products__img">
+                        <h3 class="products__name">Maggie Draped</h3>
+                        <span class="products__detail">Low</span><br>
+                        <span class="products__price">Rp. 1.500.000,-</span>
+                        <a href="#" class="button products__button_detail">Detail Product</a>
+                        <a href="#" class="button products__button"><i class='bx bxs-cart' style='color:#ffffff'  ></i></a>
+                    </div>
+                </div>
+    
+            </section>
+
+            <!---=================== CONTACT US ================--->
+            <section class="contact section bd-container" id="contact">
+                <div class="contact__container bd-grid">
+                    <div class="contact__data">
+                        <span class="section-subtitle contact__initial">Let's Talk</span>
+                        <h2 class="section-title contact__initial">Contact us</h2>
+                        <p class="contact__description">Jika kamu ingin membeli dress olla di toko kami, hubungi kami dan kami akan segera melayani kamu dengan layanan 24/7</p>
+                    </div>
+                    <div class="contact__button">
+                        <a href="#" class="button">Contact us now</a>
+                    </div>
+                </div>
+
+            </section>
+
+   </main>
+             <!---=================== FOOTER ================--->
+        <footer class="footer section bd-container">
+            <div class="footer__container bd-grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Olla&#174;</a>
+                    <span class="footer__description">Store</span>
+                </div>
+                <div>
+                    <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                    <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Services</h3>
+                    <ul>
+                        <li><a href="#" class="footer__link">Shipping and Returns</a></li>
+                        <li><a href="#" class="footer__link">Measurement Guide</a></li>
+                    </ul>
+                </div>
+                <div class="footer__content">
+                    <h3 class="footer__title">Information</h3>
+                    <ul>
+                        <li>Jl. Letkol Atang Sandjaya</li>
+                        <li>Bogor 16310 - Indonesia</li>
+                        <li>Phone : +62 813 8620 1760</li>
+                        <li>Whatsapp : 081386201760</li>
+                    </ul>
+                </div>
+            </div>
+            <p class="footer__copy">&#169; 2023 Aurora Najlawarha. All right reserve</p>
+
+        </footer>
+
+         <!---=================== SCROLL REVEAL ================--->
+         <script src="https://unpkg.com/scrollreveal"></script>
+
+          <!---=================== MAIN JS ================--->
+          <script src="assets/js/main.js"></script>
+
+          
+          <!---=================== JS SLICK ================--->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+          <script src="assets/js/slick.js"></script>
+          <script src="assets/js/slick.min.js"></script>
+
+          <script>
+              $('.slick_two').slick({
+              dots: true,
+              arrows: true,
+              autoplay: true,
+              infiniite: true,
+              speed: 1000,
+              autoplaySpeed: 2000,
+              responsive: [
+                {
+                    breakpoint: 5000,
+                    settings: {
+                        slidesToShow: 3,
+                        slidesToScroll: 1
+                    }
+                },
+                {
+                    breakpint: 768,
+                    settings: {
+                        slidesToShow: 2,
+                        slidesToScroll: 1
+                    }
+                }
+            ]
+        });
+          </script>
+    </body>
+</html>
+
